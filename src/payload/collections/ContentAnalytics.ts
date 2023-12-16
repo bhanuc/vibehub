@@ -6,7 +6,7 @@ const ContentAnalytics: CollectionConfig = {
     {
       name: 'content',
       type: 'relationship',
-      relationTo: 'content',
+      relationTo: 'post',
       required: true,
     },
     {

@@ -4,9 +4,9 @@ const Earnings: CollectionConfig = {
   slug: 'earnings',
   fields: [
     {
-      name: 'content',
+      name: 'post',
       type: 'relationship',
-      relationTo: 'content',
+      relationTo: 'post',
       required: true,
     },
     {

@@ -1,7 +1,7 @@
 import type { CollectionConfig } from 'payload/types'
 
-const Content: CollectionConfig = {
-  slug: 'content',
+const Post: CollectionConfig = {
+  slug: 'post',
   fields: [
     {
       name: 'title',
@@ -40,4 +40,4 @@ const Content: CollectionConfig = {
   ],
 }
 
-export default Content
+export default Post
